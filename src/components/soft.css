@@ -1,0 +1,32 @@
+.icon img{
+    height: 80px;
+    width: 100%;
+    object-fit: contain;
+}
+.software{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    transition: 0.1s ease;
+}
+.software p{
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.5rem;
+    color: rgba(255, 255, 255, 0.832);
+    margin-top: -15px;
+    padding: 4px;
+}
+
+.software img:active{
+    background-color: rgba(141, 141, 141, 0.567);
+    cursor:progress;
+}
+.software p:active
+{
+    border: 2px gray dotted;
+}.software p:hover
+{
+    border: 2px gray dotted;
+}

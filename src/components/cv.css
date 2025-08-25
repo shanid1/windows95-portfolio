@@ -1,0 +1,116 @@
+.cvWindow{
+    width: 45%;
+    height: 550px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-family: 'Press Start 2P', monospace;
+    font-size:.6rem;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid white;
+
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.title{
+    background: rgb(93, 92, 92);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width: 100%;
+    padding-top: px;
+    height: 30px;
+    color: rgb(168, 162, 162);
+   
+    
+    justify-content: left;
+}
+.options{
+    margin-left: 85%;
+    text-align: center;
+    align-items: center;
+    
+}
+.options p:hover
+{
+    background-color: rgb(144, 141, 141);
+    color: red;
+    
+}
+.options p{
+    border: 1px solid black;
+    border-top: 1px solid white;
+    background-color: rgb(184, 179, 179);
+    color: black;
+    padding: 5px;
+    
+    height: 40%;
+    margin: 2px;
+}
+
+.title div{
+    display: flex;
+    flex-direction: row;
+    
+}
+.title p{
+    margin-top:9%;
+}
+.title img{
+    width: 100%;
+    margin-bottom: 10px;
+    object-fit: contain;
+    height: 30px;
+}
+.filecontainer{
+    background: white;
+    margin: 10px,10px,10px,10px;
+    border: black solid 1px;
+    width: 100%;
+    height: 100%;
+    font-size: .5rem;
+    
+    padding: 10px;
+}
+.container
+{
+display: flex;
+border: gray 1px solid;
+padding: 10px;
+}
+.info{
+    margin-top: 10px;
+    border: gray 1px solid;
+    height: 100%;
+    text-align: center;
+    padding: 30px;
+}
+.project{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.project a{
+    align-items: center;
+    text-decoration: none;
+    color: rgb(107, 106, 106);
+
+}
+.project a:hover{
+    border: 2px dotted gray;
+}
+.project img{
+    width: 100%;
+    object-fit: contain;
+    height: 60px;
+}
+.project:hover{
+    background: rgba(128, 128, 128, 0.427);
+}

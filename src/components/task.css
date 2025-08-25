@@ -1,0 +1,146 @@
+.taskBar{
+    background-color: rgb(159, 159, 159);
+    width:100%;
+    height: 7%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    border: 2px solid black;
+    border-top: 2px solid white;
+}
+
+.windowsBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    width: fit-content;
+    border: 2px solid rgba(0, 0, 0, 0.551);
+    border-top: 2px solid white;
+    background-color: rgb(166, 164, 164);
+    
+    padding: 2px;
+    height: 50%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.logo{
+   height: 20px;
+   width: auto;
+   object-fit: contain;
+   margin-right: 2px;
+}
+.startText{
+    font-size: small;
+
+    font-family:'Press Start 2P', monospace;
+}
+.time{
+    display: flex;
+    flex-direction:row;
+    background-color: rgb(173, 172, 172);
+
+    justify-content: center;
+    align-items:center;
+    
+    text-align: center;
+    width: fit-content;
+    border: 2px solid rgba(0, 0, 0, 0.577);
+    border-top: 2px solid white;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50%;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.time p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    
+    color: rgb(31, 31, 31);
+}
+
+.windowsBtn:hover{
+    background-color: rgb(191, 187, 187);
+}
+.windowsBtn:active{
+
+    border: 3px solid rgba(0, 0, 0, 0.577);
+}
+.time:hover{
+    background-color: rgb(191, 187, 187);
+}
+.time:active{
+
+    border: 3px solid rgba(0, 0, 0, 0.577);
+}
+
+.sideBar{
+    border: 2px solid white;
+    background-color: rgb(173, 172, 172);
+    width: fit-content;
+    position: fixed;
+    bottom:9%;
+}
+.win95img{
+    height: 300px;
+    width: auto;
+    object-fit: contain;
+    
+}
+.borderSide{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    font-family:'Press Start 2P', monospace;
+    font-size:0.6rem;
+    
+}
+.apps{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.apps img{
+    width: 100%;
+    object-fit: contain;
+    height: 30px;
+}
+.menuItem{
+    transition: 0.1s ease;
+    width: 70%;
+    padding: 0px 20px;
+    object-fit: contain;
+    display: flex;
+    align-items: end;
+
+    
+}
+.menuItem:hover{
+ background-color:rgb(0, 0, 121);
+ color: white;
+}
+.shutdown{
+    border-top:2px solid rgb(220, 217, 217);
+    transition: 0.1s ease;
+    width: 80%;
+    padding: 0px 20px;
+    object-fit: contain;
+    display: flex;
+    width: fit-content;
+    font-size: smaller;
+    text-align: center;
+}
+.shutdown:hover{
+ background-color:rgb(126, 126, 128);
+
+}
+
+body{
+    background-color: #008080;
+}
