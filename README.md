@@ -1,12 +1,37 @@
-# React + Vite
+# 🪟 Windows 95 Portfolio 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my retro-inspired **Windows 95 Portfolio**! 🎉
 
-Currently, two official plugins are available:
+I’ve built a nostalgic user interface that looks like the classic Windows 95 desktop — but inside, you’ll find all my professional info neatly organized as apps. 💼✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## What’s Inside? 🗂️
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📝 **CV** – Take a look at my background and experience  
+- 🛠️ **Projects** – Explore the cool things I’ve built  
+- 💡 **Skills** – See what I’m good at  
+- 🖥️ Classic Windows 95 UI vibes with clickable apps and fun retro aesthetics!
+
+---
+
+## Why Windows 95? 🤔
+
+Because who doesn’t love a bit of nostalgia mixed with modern tech? Plus, it’s a unique way to showcase my work and stand out! 🌟
+
+---
+
+## How to Use 🖱️
+
+1. Open the portfolio in a browser  
+2. Click on the apps (CV, Projects, Skills)  
+3. Enjoy the retro experience and explore my work!
+
+---
+
+Thanks for stopping by! Feel free to reach out if you want to chat or collaborate. 🚀✨
+
+---
+
+**Made with ❤️ and a love for vintage tech!**
+
